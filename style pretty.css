@@ -1,0 +1,92 @@
+article {
+    background:  #0000;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  float: left;
+  background-color: #333;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul a {
+  display: block;
+  color: white;
+  padding: 8px;
+  text-align: center;
+  padding: 14px 10px;
+  text-decoration: none;
+}
+
+nav li a: hover {
+  background-color: #111;
+}
+
+header {
+  width: 100%;
+  background-color: rebeccapurple;
+  padding: 5px 20px 5px 20px;
+  background-image: url(http://home.bt.com/images/turing-bombe-136399065494703901-150706144229.jpg);
+}
+
+h1 {
+  font-family: 'Supermercado One', cursive;
+  font-size: 4em;
+  text-align: center;
+  color: white;
+  margin-bottom: 0px;
+}
+
+h2 {
+  font-family: fantasy;
+}
+
+header h2 {
+  font-family: Arial;
+  font-size: medium;
+  text-align: center;
+  color: white;
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+
+h2 a {
+  color: white;
+  text-decoration: none;
+  font-style: italic;
+}
+
+section.main {
+  margin: 2em 3em 2em 3em;
+}
+
+section.sources {
+  margin: 110px 3em 2em 3em;
+  padding: 10px 25px;
+  border: 3px dashed black;
+  font-family: monospace;
+  font-weight: bold;
+  position: relative;
+  bottom: 75px;
+}
+
+img {
+  float: left;
+  width: 200px;
+  height: 260px;
+  margin: 0 1em 1em 0;
+}
+
+li {
+  padding: 0.5em;
+}
